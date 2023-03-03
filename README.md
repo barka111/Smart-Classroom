@@ -33,6 +33,13 @@ Now going towards output we have to connect LCD with arduino
 2. D5 of LCD to 5th digital pin of Arduino 
 3. D6 of LCD to 6th digital pin of Arduino 
 4. D7 of LCD to 7th digital pin of Arduino 
+#Introduction
+This part contain a smart door lock with fingerprint interface. This is an Arduino compatible fingerprint module with the high speed DSP processor. This fingerprint module could work alone without any principal computer or any PC software. It could store 1000 fingerprints. Support fingerprint entry, intelligent image processing, finger print comparison and fingerprint search mode. It also has a high sensitivity to both wet and dry fingerprint recognition.
+#Working principal
+Fingerprint processing includes two process: fingerprint login process and fingerprint matching process. When fingerprint login each enter two times, will two the second entry image is processed, and the composite template is stored in the module. When the fingerprint is matched through the fingerprint sensor the image to be verified entered and processed then matched with the fingerprint template.
+Devices 
+For the implementation of this project we will be using a fingerprint sensor, arduino,breadboard,solenoid door lock, LCD 16x2.
+
 5. E of LCD to 3rd digital pin of Arduino
 6. Rs of LCD to 2nd digital pin of Arduino 
 7. Ground the following pins of the LCD:
