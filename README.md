@@ -26,10 +26,10 @@ bulb holder!
 5v 2 2Amp power Adapter
 # working
 First of all connect sensors with Arduino for input:
-Connect echo and treg pin of 1st sensor to pin A0 and A1 pin of arduino
-Connect gnd and vcc pin of sensor to arduino
-Connect echo and treg pin of 2nd sensor to pin A2 and A2 pin of arduino
-Connect gnd and vcc pin of sensor to arduino
+1. Connect echo and treg pin of 1st sensor to pin A0 and A1 pin of arduino
+2. Connect gnd and vcc pin of sensor to arduino
+3. Connect echo and treg pin of 2nd sensor to pin A2 and A2 pin of arduino
+4. Connect gnd and vcc pin of sensor to arduino.
 Now going towards output we have to connect LCD with arduino
 1. D4 of LCD to 4th digital pin of Arduino 
 2. D5 of LCD to 5th digital pin of Arduino 
@@ -38,20 +38,19 @@ Now going towards output we have to connect LCD with arduino
 5. E of LCD to 3rd digital pin of Arduino
 6. Rs of LCD to 2nd digital pin of Arduino 
 7. Ground the following pins of the LCD:
-  A). K!
-
-  B). RS
-  C). Vss
-10. Vcc the following pins:
-11. A). A
-12. B). VDD
-13. C). VO
-14. Connections of Relay:
-15. IN  pin of relay to 8th digital pin of Arduino.
-16. vcc to 5v
-17. GND to GND
-18. COMMON PIN to directly Bulb/Fan.
-19. NORMAL CLOSE to directly 220v.
+8.  A). K!
+9.  B). RS
+10. C). Vss
+11. Vcc the following pins:
+12. A). A
+13. B). VDD
+14. C). VO
+15. Connections of Relay:
+16. IN  pin of relay to 8th digital pin of Arduino.
+17. vcc to 5v
+18. GND to GND
+19. COMMON PIN to directly Bulb/Fan.
+20. NORMAL CLOSE to directly 220v.
 
 
 # Introduction(fingerprint)
