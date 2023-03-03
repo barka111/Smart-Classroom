@@ -26,10 +26,10 @@ bulb holder!
 5v 2 2Amp power Adapter
 # working
 First of all connect sensors with Arduino for input:
-1.Connect echo and treg pin of 1st sensor to pin A0 and A1 pin of arduino
-2.Connect gnd and vcc pin of sensor to arduino
-3.Connect echo and treg pin of 2nd sensor to pin A2 and A2 pin of arduino
-4.Connect gnd and vcc pin of sensor to arduino
+Connect echo and treg pin of 1st sensor to pin A0 and A1 pin of arduino
+Connect gnd and vcc pin of sensor to arduino
+Connect echo and treg pin of 2nd sensor to pin A2 and A2 pin of arduino
+Connect gnd and vcc pin of sensor to arduino
 Now going towards output we have to connect LCD with arduino
 1. D4 of LCD to 4th digital pin of Arduino 
 2. D5 of LCD to 5th digital pin of Arduino 
