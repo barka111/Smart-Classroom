@@ -10,20 +10,17 @@ On basis of motion, when someone will enter the room the smart system will autom
 work and LCD will display how many persons in the room.
 # Hardware installation:
 we will need the following components:
-Arduino Uno
-ultra sonic sensors hc-sr04x2
-jumper wires
-1 channel relay
-led display 16x2
-100R resistor !
-
-4.7k resistor
-1k resistor
-bulb holder!
-
-220v LED Bulb
-
-5v 2 2Amp power Adapter
+1. Arduino Uno
+2. ultra sonic sensors hc-sr04x2
+3. jumper wires
+4. 1 channel relay 
+5. led display 16x2
+6. 100R resistor 
+7. 4.7k resistor
+8. 1k resistor
+9. bulb holder
+10. 220v LED Bulb
+11. 5v 2 2Amp power Adapter
 # working
 First of all connect sensors with Arduino for input:
 1. Connect echo and treg pin of 1st sensor to pin A0 and A1 pin of arduino
