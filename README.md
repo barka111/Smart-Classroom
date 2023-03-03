@@ -15,10 +15,11 @@ ultra sonic sensors hc-sr04x2
 jumper wires
 1 channel relay
 led display 16x2
-100R resistor 
+100R resistor !
+
 4.7k resistor
 1k resistor
-bulb holder![68747470733a2f2f312e62702e626c6f6773706f742e636f6d2f2d57564b744b466f6341724d2f5850447a336e7468464a492f41414141414141425153512f6f446c47384169636a577356614e5368766f6158656678466f5937487453363677434c63424741732f733634](https://user-images.githubusercontent.com/126908875/222803453-9fe18d4b-e416-4ed6-9a0d-db371aa8022b.png)
+bulb holder!
 
 220v LED Bulb
 
@@ -40,11 +41,14 @@ This part contain a smart door lock with fingerprint interface. This is an Ardui
 Fingerprint processing includes two process: fingerprint login process and fingerprint matching process. When fingerprint login each enter two times, will two the second entry image is processed, and the composite template is stored in the module. When the fingerprint is matched through the fingerprint sensor the image to be verified entered and processed then matched with the fingerprint template.
 Devices 
 For the implementation of this project we will be using a fingerprint sensor, arduino,breadboard,solenoid door lock, LCD 16x2.
+![68747470733a2f2f312e62702e626c6f6773706f742e636f6d2f2d37487634667248316d70342f5850447a323051757775492f41414141414141425153492f6841456c556247386b48305855554432556a744758684f42464d4a53665a503167434c63424741732f733634](https://user-images.githubusercontent.com/126908875/222804031-3598f8cf-9b85-439e-a223-18fc653eb074.png)
 
 5. E of LCD to 3rd digital pin of Arduino
 6. Rs of LCD to 2nd digital pin of Arduino 
 7. Ground the following pins of the LCD:
-  A). K
+  A). K![68747470733a2f2f312e62702e626c6f6773706f742e636f6d2f2d57564b744b466f6341724d2f5850447a336e7468464a492f41414141414141425153512f6f446c47384169636a577356614e5368766f6158656678466f5937487453363677434c63424741732f733634](https://user-images.githubusercontent.com/126908875/222803838-f07bf028-1cf6-4375-ab04-0dff77050b21.png)
+![68747470733a2f2f312e62702e626c6f6773706f742e636f6d2f2d6f474365685972615a42632f5850447a323078654a7a492f41414141414141425153452f743544493938716f6871675645374964655878444873616662384a4d4555454e67434c63424741732f733634](https://user-images.githubusercontent.com/126908875/222803950-109a96d7-b324-4e14-8739-c422ed0d0556.png)
+
   B). RS
   C). Vss
 10. Vcc the following pins:
